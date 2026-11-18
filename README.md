@@ -6,5 +6,5 @@ The output of the tool is a projection of the expected claim amounts for the pol
 Made use of Excel IFAND function , HLOOKUP ,SUM , Absolute and Relative cell referencing
 
 
-Used VBA to automate the calculation of Projected Claims for a group 100 policyholder. 
+Used VBA to automate the calculation of Projected Claims for a group 100 policyholders. 
 Made use of VBA if statements ,and For loops. 
