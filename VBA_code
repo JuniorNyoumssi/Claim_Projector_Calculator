@@ -1,0 +1,14 @@
+Sub Totalprojectedloss()
+For i = 2 To 101
+      If Sheets("Sheet2").Cells(i, "B") = "Male" Then
+      Sheets("Sheet1").Cells(10, "B") = "M"
+      Else: Sheets("Sheet1").Cells(10, "B") = "F"
+      End If
+      If Sheets("Sheet2").Cells(i, "D") = 1 Then
+      Sheets("Sheet1").Cells(12, "B") = "Unhealthy"
+      Else: Sheets("Sheet1").Cells(12, "B") = "Healthy"
+      End If
+      Sheets("Sheet1").Cells(11, "B") = Sheets("Sheet2").Cells(i, "C")
+      Sheets("Sheet2").Cells(i, "E") = Sheets("Sheet1").Cells(24, "B")
+Next i
+End Sub
