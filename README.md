@@ -7,4 +7,4 @@ Made use of Excel IFAND function , HLOOKUP ,SUM , Absolute and Relative cell ref
 
 
 Used VBA to automate the calculation of Projected Claims for a group 100 policyholders. 
-Made use of VBA if statements ,and For loops. 
+I made use of VBA if statements ,and For loops. 
